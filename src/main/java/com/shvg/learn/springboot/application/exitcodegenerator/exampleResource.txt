@@ -1,0 +1,3 @@
+https://www.programcreek.com/java-api-examples/index.php?api=org.springframework.boot.ExitCodeGenerator
+https://www.programcreek.com/java-api-examples/?class=org.springframework.boot.SpringApplication&method=exit
+https://www.baeldung.com/spring-boot-exit-codes

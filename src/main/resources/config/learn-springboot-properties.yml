@@ -1,0 +1,17 @@
+spring :
+  config:
+    name: learn-springboot-properties
+  devtools:
+    restart:
+      log-condition-evaluation-delta: false
+      additional-paths              : resources/**
+      exclude                       : static/**, templates/**, json/**, sampleRequest/**
+  main    :
+    banner-mode: "off"
+logging:
+  file : C:\\temp\\intelliJ_logs\\learn-springboot.log
+  level:
+    com : INFO
+    org :
+      springframework: ERROR
+    root: INFO

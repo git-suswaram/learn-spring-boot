@@ -1,0 +1,5 @@
+https://dzone.com/articles/spring-boot-and-application-context-hierarchy
+https://www.baeldung.com/spring-boot-context-hierarchy
+http://www.javarticles.com/2016/02/spring-contexthierarchy-annotation-example.html
+
+http://javafreakers.com/application-context-level-hierarchy-in-spring-web-application/

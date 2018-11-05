@@ -1,4 +1,4 @@
-package com.shvg.learn.springboot.application;
+package com.shvg.learn.springboot.application.basic;
 
 import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;
