@@ -1,17 +1,27 @@
 spring :
-  config:
+  application:
+    name  : springboot
+    output:
+      ansi:
+        enabled: always
+  config     :
     name: learn-springboot-properties
-  devtools:
+  devtools   :
     restart:
       log-condition-evaluation-delta: false
       additional-paths              : resources/**
       exclude                       : static/**, templates/**, json/**, sampleRequest/**
-  main    :
+  main       :
     banner-mode: "off"
+
 logging:
-  file : C:\\temp\\intelliJ_logs\\learn-springboot.log
+  file: C:\\temp\\intelliJ_logs\\learn-springboot-dev.log
   level:
     com : INFO
     org :
-      springframework: ERROR
+      springframework: INFO
     root: INFO
+
+my     :
+  messageValue: This is dev environment
+
